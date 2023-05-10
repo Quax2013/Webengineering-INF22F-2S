@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+
+    <!--<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>-->
+</head>
+
+<body>
+
+    <h1>Marathon Registrierung</h1>
+
+    <form action="">
+        <p>
+            <label for="firstname_id">Vorname:</label>
+            <input type="text" name="firstname" id="firstname_id" placeholder="Max" required>
+
+            <label for="lastname_id">Nachname:</label>
+            <input type="text" name="lastname" id="lastname_id" placeholder="Mustermann" required>
+        </p>
+        <p>
+            <p>Wähle die Distanz:</p>
+            
+            <input type="radio" name="distance" id="distance_id_1" required>
+            <label for="distance_id_1">Spaßlauf</label>
+            <br>
+
+            <input type="radio" name="distance" id="distance_id_2" required>
+            <label for="distance_id_2">Halbmarathon</label>
+            <br>
+            
+            <input type="radio" name="distance" id="distance_id_3" required>
+            <label for="distance_id_3">Marathon</label>
+        </p>
+        <p>
+            <label for="email_id">Email:</label>
+            <input type="email" name="email" id="email_id" required>
+
+            <label for="password_id">Passwort</label>
+            <input type="text" name="password" id="password_id" required>
+        </p>
+        <p>
+            <label for="age_id">Wähle dein Alter:</label>
+            <select name="age" id="age_id">
+                <option value="0">Unter 18</option>
+                <option value="1">18+</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Registrieren!</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
