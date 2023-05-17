@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a{
+    color: teal;
+    margin-right: 5px;
+}
+
+.dislikes{
+    color: red;
+}

@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 210px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
+    border: rgb(236, 183, 191) solid 5px;
+    border-radius: 50%;
+}

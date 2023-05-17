@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
