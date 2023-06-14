@@ -5,7 +5,7 @@ submit.onclick = function () {
 
     fetch('https://api.github.com/user/repos', {
         method: 'GET',
-        headers: { 'Authorization': `Bearer ${key}` }       //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  Gültig bis 21.6.2023
+        headers: { 'Authorization': `Bearer ${key}` }       //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  Gültig bis 13.7.2023
     }
     ).then((response) => {
         return response.json();
